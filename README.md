@@ -2,4 +2,4 @@
 
 ## Avalanche
 
-### Create custom update effects on any database.
+### Optimized updates on any database.
