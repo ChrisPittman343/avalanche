@@ -1,0 +1,63 @@
+.intro {
+  height: 100vh;
+}
+
+.intro-hero {
+  position: absolute;
+  height: 100vh;
+  left: 0;
+  right: 0;
+  z-index: -10;
+  background-image: url("../../Images/main-hero.svg");
+  background-repeat: no-repeat;
+  background-position: 80%;
+  background-size: cover;
+}
+
+.title-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0 0 60px;
+}
+
+.intro-title {
+  font-size: 95px;
+}
+
+.intro-description {
+  font-size: 35px;
+}
+
+.links {
+  font-size: 25px;
+}
+
+.intro-link {
+  width: fit-content;
+}
+
+@media screen and (max-width: 900px) {
+  .title-wrapper {
+    background: #031929e5;
+    text-align: center;
+    padding: 0 0 10px 0;
+    justify-content: baseline;
+    justify-content: space-evenly;
+    height: 40vh;
+  }
+  .intro-title,
+  .intro-description,
+  .links {
+    padding-left: 0;
+  }
+  .intro-title {
+    font-size: 50px;
+  }
+
+  .intro-description {
+    font-size: 23px;
+  }
+  .links {
+    font-size: 18px;
+  }
+}

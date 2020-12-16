@@ -1,0 +1,51 @@
+.copy-npm {
+  background: var(--grayBlue);
+  margin: 20px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  width: fit-content;
+  height: 40px;
+  line-height: normal;
+}
+
+.clipboard-text-wrapper {
+}
+
+#install-text {
+  text-align: center;
+  width: 250px;
+}
+
+.copy-btn-wrapper {
+}
+
+.copy-btn {
+  background: none;
+  border: none;
+  width: 40px;
+  height: 40px;
+  transition: background 0.15s;
+}
+
+.copy-btn:hover {
+  cursor: pointer;
+  background: var(--lapis);
+}
+
+.copy-btn:focus {
+  outline: none;
+}
+
+#copy-icon {
+  margin-top: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+@media screen and (max-width: 900px) {
+  .copy-npm {
+    display: none;
+  }
+}

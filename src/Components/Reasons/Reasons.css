@@ -1,0 +1,47 @@
+.reasons-list-flex {
+  padding: 90px 0;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.reason {
+  padding: 20px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: baseline;
+}
+
+.reason-img {
+  margin: 0 auto;
+  width: 256px;
+  height: 256px;
+}
+
+.reason-title {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.reason-description {
+  font-size: 17px;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1200px) {
+  .reason {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .reason-img {
+    width: 175px;
+    height: 175px;
+  }
+}

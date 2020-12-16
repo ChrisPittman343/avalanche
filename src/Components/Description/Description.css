@@ -1,0 +1,20 @@
+.description {
+  background-color: #f2f3f4;
+  padding: 70px;
+  margin-bottom: 40px;
+  border-bottom: 8px solid var(--black);
+}
+
+.description-title {
+  margin-bottom: 20px;
+}
+.description-header {
+}
+.description-title,
+.description-header {
+  color: var(--black);
+}
+
+.description-header > a {
+  color: var(--black);
+}
