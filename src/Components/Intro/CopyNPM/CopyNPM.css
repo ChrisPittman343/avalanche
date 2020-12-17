@@ -15,7 +15,7 @@
 
 #install-text {
   text-align: center;
-  width: 250px;
+  width: 310px;
 }
 
 .copy-btn-wrapper {
@@ -44,7 +44,7 @@
   height: 30px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1050px) {
   .copy-npm {
     display: none;
   }

@@ -7,7 +7,7 @@ export default class CopyNPM extends Component {
     return (
       <div className="copy-npm">
         <div className="clipboard-text-wrapper">
-          <div id="install-text">npm install avalanche</div>
+          <div id="install-text">npm (don't) install avalanche</div>
         </div>
         <div className="copy-btn-wrapper">
           <button
@@ -30,7 +30,7 @@ export default class CopyNPM extends Component {
  */
 async function copyToClipboard(resolve, reject) {
   navigator.clipboard
-    .writeText("npm install avalanche")
+    .writeText("don't actually run this!")
     .then(() => {
       resolve();
     })

@@ -15,10 +15,17 @@ function Intro(props) {
           <div className="npm-copy-wrapper">
             <CopyNPM />
           </div>
-          <a className="intro-link" href="/">
+          <a
+            className="intro-link"
+            href="https://github.com/ChrisPittman343/avalanche"
+          >
             DOCS
           </a>
-          <a className="intro-link" href="/" style={{ paddingLeft: "20px" }}>
+          <a
+            className="intro-link"
+            href="https://github.com/ChrisPittman343/avalanche"
+            style={{ paddingLeft: "20px" }}
+          >
             GITHUB
           </a>
         </div>

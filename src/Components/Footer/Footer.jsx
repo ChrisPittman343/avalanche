@@ -6,7 +6,10 @@ import "./Footer.css";
 function Footer(props) {
   return (
     <div className="footer">
-      <Wrapper size="full">Github Contact</Wrapper>
+      <Wrapper size="full">
+        <a href="https://github.com/ChrisPittman343/avalanche">Github</a>{" "}
+        Contact
+      </Wrapper>
     </div>
   );
 }

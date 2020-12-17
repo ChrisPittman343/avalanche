@@ -40,9 +40,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.9666407"
-     inkscape:cx="3.8051713"
-     inkscape:cy="148.15402"
+     inkscape:zoom="1"
+     inkscape:cx="403.19478"
+     inkscape:cy="63.506103"
      inkscape:document-units="px"
      inkscape:current-layer="g918"
      inkscape:document-rotation="0"
@@ -310,18 +310,15 @@
            y="27.36447"
            ry="0.20426799" />
       </g>
-      <g
-         id="g2874"
-         transform="translate(0.64308631,1.7469301)">
-        <path
-           id="path1825"
-           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.22116;stroke-linecap:square;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
-           d="m 36.235248,32.904858 2.337968,0.626456 -3.812049,14.226766 -2.337969,-0.626457 z m -3.103684,16.259093 -2.063893,-3.574758 5.638632,1.510867 z" />
-        <path
-           id="path2284"
-           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.22116;stroke-linecap:square;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
-           d="m 49.256899,33.531313 2.33797,-0.626458 3.81205,14.226766 -2.33797,0.626457 z m 5.441677,15.632629 -3.574762,-2.063884 5.638632,-1.510867 z" />
-      </g>
+      <path
+         id="path1825"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.63235987;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         d="m 36.925954,34.420056 -3.617241,13.498613 -1.696852,-0.454696 2.122081,3.676174 3.676174,-2.122591 -1.696852,-0.454693 3.616734,-13.498611 z" />
+      <path
+         id="path2284"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.49999996;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;paint-order:markers fill stroke;stroke-miterlimit:4;stroke-dasharray:none"
+         d="M 158.36523 101.27148 L 149.12305 103.74805 L 163.02734 155.64258 L 156.50391 157.39062 L 170.63477 165.55078 L 178.79492 151.41797 L 172.26953 153.16602 L 158.36523 101.27148 z "
+         transform="matrix(0.25294395,0,0,0.25294395,12.180392,9.0357868)" />
       <rect
          style="opacity:1;fill:#0f89e0;fill-opacity:1;stroke:none;stroke-width:0.999887;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
          id="rect3306"

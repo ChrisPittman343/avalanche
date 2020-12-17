@@ -2,3 +2,12 @@
   background-color: var(--darkNavy);
   padding: 90px 0;
 }
+
+.creator-title {
+  padding-bottom: 15px;
+}
+.creator-body {
+  font-size: 25px;
+  margin: auto;
+  max-width: 900px;
+}

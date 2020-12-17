@@ -11,16 +11,16 @@ function Description(props) {
           SQL got you feeling buried?
         </div>
         <div className="description-header header-description">
-          Whether it's an enterprise application or a personal project, the
-          feeling of having unnecessary database queries on every request is
-          something well understood by developers everywhere.
+          Whether it's an enterprise application or a personal project, the pain
+          of having bad database queries is something universally understood by
+          developers.
           <br />
           <br />
           That's why Avalanche strives to optimize every query that you do.
           <br />
           <br />
           With minimal work on your end, Avalanche can understand your schema
-          and clean up the queries necessary to make your app as performant as
+          and generate the SQL necessary to make your app as performant as
           possible.
         </div>
       </Wrapper>

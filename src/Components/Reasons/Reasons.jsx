@@ -2,7 +2,9 @@ import React from "react";
 import "./Reasons.css";
 import PropTypes from "prop-types";
 import Wrapper from "../Wrapper/Wrapper";
+import reason_simple from "../../Images/reason-simple.svg";
 import reason_logical from "../../Images/reason-logical.svg";
+import reason_versatile from "../../Images/reason-versatile.svg";
 
 function Reasons(props) {
   return (
@@ -10,7 +12,7 @@ function Reasons(props) {
       <Wrapper>
         <div className="reasons-list-flex">
           <div className="reason">
-            <img className="reason-img" alt="Reason" src={reason_logical} />
+            <img className="reason-img" alt="Reason" src={reason_simple} />
             <div className="reason-title">Simple Implementation</div>
             <div className="reason-description">
               {/* Make sure all of the reasons are in the same person + style */}
@@ -27,8 +29,8 @@ function Reasons(props) {
             </div>
           </div>{" "}
           <div className="reason">
-            <img className="reason-img" alt="Reason" src={reason_logical} />
-            <div className="reason-title">Fits into any project</div>
+            <img className="reason-img" alt="Reason" src={reason_versatile} />
+            <div className="reason-title">Universal Compatability</div>
             <div className="reason-description">
               Any project, any database, Avalanche can do its job, so you can
               too.
