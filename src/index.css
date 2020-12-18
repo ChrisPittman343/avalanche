@@ -12,7 +12,7 @@
 :root {
   --white: #ffffff;
   --blueWhite: #eaf7ff;
-  --lapis: #0f89e0;
+  --lapis: #2083ca;
   --grayBlue: #2f5775;
   --navy: #031929;
   --darkNavy: #08121a;
@@ -34,7 +34,7 @@ html {
 
 .header {
   font-weight: 600;
-  font-size: 35px;
+  font-size: 38px;
 }
 
 .header-description {

@@ -8,8 +8,9 @@ import reason_versatile from "../../Images/reason-versatile.svg";
 
 function Reasons(props) {
   return (
-    <div>
+    <div className="reasons">
       <Wrapper>
+        <div className="reasons-title header">Defining Features</div>
         <div className="reasons-list-flex">
           <div className="reason">
             <img className="reason-img" alt="Reason" src={reason_simple} />

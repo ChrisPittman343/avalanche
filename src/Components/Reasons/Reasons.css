@@ -1,5 +1,12 @@
-.reasons-list-flex {
+.reasons {
   padding: 90px 0;
+}
+
+.reasons-title {
+  padding-bottom: 20px;
+}
+
+.reasons-list-flex {
   display: flex;
   flex-direction: row;
   margin-bottom: 40px;

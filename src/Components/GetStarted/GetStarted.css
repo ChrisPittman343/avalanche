@@ -1,0 +1,38 @@
+.get-started {
+  padding: 90px 0;
+  padding-bottom: 110px;
+}
+
+.get-started-title {
+  padding-bottom: 10px;
+}
+
+.get-started-body {
+  margin: auto;
+  max-width: 700px;
+}
+
+.get-started-btn-container {
+  padding-top: 25px;
+}
+
+.get-started-btn {
+  border: 1px solid var(--white);
+  padding: 4px 8px;
+  font-size: 22px;
+  background: linear-gradient(
+    to bottom,
+    var(--white),
+    var(--white) 50%,
+    transparent 50%
+  );
+  background-size: 100% 200%;
+  background-position: 0 100%;
+  transition: background-position ease-in 0.15s, color ease-in 0.17s;
+}
+
+.get-started-btn:hover {
+  cursor: pointer;
+  background-position: 0 0;
+  color: var(--black);
+}

@@ -7,9 +7,7 @@ function Description(props) {
   return (
     <div className="description">
       <Wrapper>
-        <div className="description-title header">
-          SQL got you feeling buried?
-        </div>
+        <div className="description-title header">Buried in SQL?</div>
         <div className="description-header header-description">
           Whether it's an enterprise application or a personal project, the pain
           of having bad database queries is something universally understood by

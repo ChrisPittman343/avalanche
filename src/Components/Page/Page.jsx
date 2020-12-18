@@ -5,13 +5,15 @@ import Reasons from "../Reasons/Reasons";
 import Footer from "../Footer/Footer";
 import Description from "../Description/Description";
 import Creator from "../Creator/Creator";
+import GetStarted from "../GetStarted/GetStarted";
 
 export default function Page() {
   return (
-    <div>
+    <div className="page">
       <Intro />
       <Description />
       <Reasons />
+      <GetStarted />
       <Creator />
       <Footer />
     </div>
