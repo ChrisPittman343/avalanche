@@ -11,3 +11,11 @@
   margin: auto;
   max-width: 900px;
 }
+
+.form-link {
+  text-decoration: underline;
+}
+
+.form-link:hover {
+  cursor: pointer;
+}

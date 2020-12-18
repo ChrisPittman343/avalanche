@@ -28,6 +28,10 @@ html {
   background: var(--navy);
 }
 
+body {
+  overflow-y: scroll;
+}
+
 .hidden {
   display: none;
 }
@@ -40,4 +44,16 @@ html {
 .header-description {
   font-weight: 300;
   font-size: 20px;
+}
+
+.text-btn {
+  text-decoration: underline;
+}
+
+.text-btn:hover {
+  cursor: pointer;
+}
+
+.scroll-lock {
+  overflow-y: hidden;
 }

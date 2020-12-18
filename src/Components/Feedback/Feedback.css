@@ -1,0 +1,72 @@
+.feedback {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  animation: fade-in 0.35s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.backdrop {
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.feedback-form-wrapper {
+  margin: auto;
+  background: var(--almostBlack);
+  border: 1px solid var(--grayBlue);
+  border-radius: 5px;
+  width: 30vw;
+  height: 50%;
+}
+
+.feedback > label {
+}
+
+.feedback-form {
+  margin: auto;
+  padding: 15px;
+}
+
+.form-field {
+  background: transparent;
+  border: 0;
+  min-height: fit-content;
+  border-bottom: 1px solid var(--grayBlue);
+  width: 100%;
+}
+
+.form-field:focus {
+  background: var(--black);
+  outline: 0;
+  border-bottom: 1px solid var(--lapis);
+}
+
+.form-submit-btn {
+  padding: 3px 8px;
+  background: transparent;
+  border: 1px solid var(--white);
+}
+
+.form-submit-btn:focus {
+}

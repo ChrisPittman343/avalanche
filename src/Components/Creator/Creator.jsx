@@ -20,7 +20,11 @@ function Creator(props) {
           <br />
           <br />
           However, if you had any suggestions on the website, feedback would be
-          greatly appreciated. You can contact me at EMAIL.
+          greatly appreciated. You can contact me by filling out{" "}
+          <span className="text-btn" onClick={(e) => props.toggleModal(true)}>
+            this form
+          </span>
+          .
           <br />
           <br />
           Thanks for stopping by!
@@ -32,6 +36,8 @@ function Creator(props) {
   );
 }
 
-Creator.propTypes = {};
+Creator.propTypes = {
+  toggleModal: PropTypes.func,
+};
 
 export default Creator;

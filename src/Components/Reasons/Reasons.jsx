@@ -1,6 +1,5 @@
 import React from "react";
 import "./Reasons.css";
-import PropTypes from "prop-types";
 import Wrapper from "../Wrapper/Wrapper";
 import reason_simple from "../../Images/reason-simple.svg";
 import reason_logical from "../../Images/reason-logical.svg";
@@ -33,8 +32,8 @@ function Reasons(props) {
             <img className="reason-img" alt="Reason" src={reason_versatile} />
             <div className="reason-title">Universal Compatability</div>
             <div className="reason-description">
-              Any project, any database, Avalanche can do its job, so you can
-              too.
+              Any project, any SQL database, Avalanche can do its job, so you
+              can too.
             </div>
           </div>
         </div>
@@ -42,7 +41,5 @@ function Reasons(props) {
     </div>
   );
 }
-
-Reasons.propTypes = {};
 
 export default Reasons;

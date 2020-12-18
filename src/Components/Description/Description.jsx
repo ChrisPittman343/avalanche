@@ -1,6 +1,5 @@
 import React from "react";
 import "./Description.css";
-import PropTypes from "prop-types";
 import Wrapper from "../Wrapper/Wrapper";
 
 function Description(props) {
@@ -25,7 +24,5 @@ function Description(props) {
     </div>
   );
 }
-
-Description.propTypes = {};
 
 export default Description;
