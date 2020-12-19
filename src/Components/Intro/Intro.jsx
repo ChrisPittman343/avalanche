@@ -24,7 +24,7 @@ function Intro(props) {
           <a
             className="intro-link"
             href="https://github.com/ChrisPittman343/avalanche"
-            style={{ paddingLeft: "20px" }}
+            style={{ marginLeft: "20px" }}
           >
             GITHUB
           </a>

@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import Wrapper from "../Wrapper/Wrapper";
 import "./Creator.css";
 
@@ -12,22 +11,14 @@ function Creator(props) {
           Hi there!
           <br />
           <br />
-          If you came here looking for some cool software to help in a project,
-          I regret to inform you that there is nothing here for you. This is
-          just a landing page I thought up to practice designing simple,
-          responsive websites (Hence all the empty buzzwords I used to fill
-          space).
-          <br />
-          <br />
-          However, if you had any suggestions on the website, feedback would be
-          greatly appreciated. You can contact me by filling out{" "}
-          <span className="text-btn" onClick={(e) => props.toggleModal(true)}>
-            this form
-          </span>
-          .
+          If you came here looking for some cool software to help in a project
+          of yours, I regret to inform you that this site has none. This is just
+          a landing page I thought up to practice designing simple, responsive
+          websites (Hence all the empty buzzwords I used to fill space).
           <br />
           <br />
           Thanks for stopping by!
+          <br />
           <br />
           -Chris
         </div>
@@ -35,9 +26,5 @@ function Creator(props) {
     </div>
   );
 }
-
-Creator.propTypes = {
-  toggleModal: PropTypes.func,
-};
 
 export default Creator;

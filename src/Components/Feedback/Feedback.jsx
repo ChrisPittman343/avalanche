@@ -2,6 +2,12 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import "./Feedback.css";
 
+/*
+This component was going to be used to provide feedback to me
+through a form that sends a message to my email, however because github-pages
+only supports static site hosting, this is impossible. 
+*/
+
 export default class Feedback extends Component {
   constructor(props) {
     super(props);
@@ -25,7 +31,8 @@ export default class Feedback extends Component {
 
   canSubmitForm = () => {
     const isValidEmail =
-      /.+@.+..+/g.test(this.state.email) || this.state.email.length === 0;
+      /\S+@\S+\.\S+(?!\s)/g.test(this.state.email) ||
+      this.state.email.length === 0;
     const isValidFeedback = this.state.feedback.length > 0;
     return isValidFeedback && isValidEmail;
   };
@@ -78,7 +85,7 @@ export default class Feedback extends Component {
               name="submit-feedback"
               disabled={!this.canSubmitForm()}
               id="submit-feedback"
-              className="form-submit-btn "
+              className="form-submit-btn header-description"
               value="Submit"
               type="submit"
             />

@@ -2,6 +2,7 @@
   background-color: #f2f3f4;
   padding: 0 70px 90px 70px;
   margin-bottom: 40px;
+  border-top: 5px solid #f2f3f4;
   border-bottom: 8px solid var(--black);
 }
 

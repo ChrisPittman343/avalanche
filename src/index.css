@@ -19,9 +19,9 @@
   --darkBrown: #291611;
   --almostBlack: #111111;
   --black: #000000;
-  --success: rgb(30, 206, 24);
-  --fail: rgb(226, 19, 19);
-  --warning: rgb(255, 238, 0);
+  --success: rgb(14, 173, 9);
+  --fail: rgb(202, 31, 31);
+  --warning: rgb(235, 220, 19);
 }
 
 html {
@@ -43,7 +43,7 @@ body {
 
 .header-description {
   font-weight: 300;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .text-btn {
@@ -52,8 +52,4 @@ body {
 
 .text-btn:hover {
   cursor: pointer;
-}
-
-.scroll-lock {
-  overflow-y: hidden;
 }
