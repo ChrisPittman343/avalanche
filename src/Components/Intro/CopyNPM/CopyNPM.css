@@ -1,47 +1,46 @@
 .copy-npm {
-  background: var(--grayBlue);
   margin: 20px 0;
   text-align: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: end;
   width: fit-content;
   height: 40px;
-  line-height: normal;
 }
 
-.clipboard-text-wrapper {
+#copy-btn {
+  padding: 4px 9px;
+  display: flex;
+  background: var(--grayBlue);
+  border: 0;
+  outline: 0;
+  transition: background 0.2s, transform 0.2s;
 }
 
-#install-text {
-  text-align: center;
-  width: 310px;
+.install-text-wrapper {
+  font-size: 25px;
 }
 
-.copy-btn-wrapper {
+#copy-icon {
+  padding: 0;
+  margin: 4px 0 0 6px;
+  width: 30px;
+  height: 30px;
 }
 
-.copy-btn {
-  background: none;
-  border: none;
-  width: 40px;
-  height: 40px;
-  transition: background 0.15s;
-}
-
-.copy-btn:hover {
+#copy-btn:hover {
   cursor: pointer;
   background: var(--lapis);
 }
 
-.copy-btn:focus {
+#copy-btn:focus {
   outline: none;
 }
 
-#copy-icon {
-  margin-top: 5px;
-  width: 30px;
-  height: 30px;
+.successful-copy {
+  transform: translateX(5px);
+  background: var(--success) !important;
+}
+.failed-copy {
+  transform: translateX(5px);
+  background: var(--fail) !important;
 }
 
 @media screen and (max-width: 1050px) {

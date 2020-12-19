@@ -12,6 +12,9 @@
   background-repeat: no-repeat;
   background-position: 80%;
   background-size: cover;
+  font-size: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .title-wrapper {

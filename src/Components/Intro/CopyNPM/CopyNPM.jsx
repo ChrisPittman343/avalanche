@@ -1,38 +1,51 @@
-import React, { Component } from "react";
+import React from "react";
 import "./CopyNPM.css";
 import copyLogo from "../../../Images/copy.svg";
 
-export default class CopyNPM extends Component {
-  render() {
-    return (
-      <div className="copy-npm">
-        <div className="clipboard-text-wrapper">
-          <div id="install-text">npm (don't) install avalanche</div>
-        </div>
-        <div className="copy-btn-wrapper">
-          <button
-            className="copy-btn"
-            onClick={(e) => copyToClipboard(console.log, console.log)}
-          >
-            <img id="copy-icon" alt="Copy" src={copyLogo} />
-          </button>
-        </div>
-      </div>
-    );
+export default function CopyNPM(props) {
+  /**
+   * Copies the dummy text to the clipboard, then calls a function
+   * in a parent component to display the success.
+   * @param {function} resolve
+   * @param {function} reject
+   */
+  async function copyToClipboard(e) {
+    e.preventDefault();
+    navigator.clipboard
+      .writeText("don't actually run this!")
+      .then(() => {
+        successfulCopy();
+      })
+      .catch(() => failedCopy());
   }
-}
 
-/**
- * Copies the dummy text to the clipboard, then calls a function
- * in a parent component to display the success.
- * @param {function} resolve
- * @param {function} reject
- */
-async function copyToClipboard(resolve, reject) {
-  navigator.clipboard
-    .writeText("don't actually run this!")
-    .then(() => {
-      resolve();
-    })
-    .catch(() => reject());
+  const successfulCopy = () => {
+    const btn = document.getElementById("copy-btn");
+    btn.classList.add("successful-copy");
+    setTimeout(() => {
+      btn.classList.remove("successful-copy");
+    }, 1000);
+  };
+
+  const failedCopy = () => {
+    const btn = document.getElementById("copy-btn");
+    btn.classList.add("failed-copy");
+    setTimeout(() => {
+      btn.classList.remove("failed-copy");
+    }, 1000);
+  };
+
+  return (
+    <div className="copy-npm">
+      <button id="copy-btn" onClick={(e) => copyToClipboard(e)}>
+        <div className="install-text-wrapper">
+          $ npm (don't) install avalanche
+        </div>
+        <div className="copy-icon-wrapper">
+          <img id="copy-icon" alt="Copy" src={copyLogo} />
+        </div>
+      </button>
+    </div>
+  );
 }
+//
